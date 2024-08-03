@@ -1,0 +1,21 @@
+﻿  alglibinternal.cpp
+  alglibmisc.cpp
+  ap.cpp
+  dataanalysis.cpp
+  diffequations.cpp
+  fasttransforms.cpp
+  integration.cpp
+  interpolation.cpp
+  kernels_avx2.cpp
+  kernels_fma.cpp
+  kernels_sse2.cpp
+  linalg.cpp
+  optimization.cpp
+  solvers.cpp
+  specialfunctions.cpp
+  statistics.cpp
+  EquityId.cpp
+  EquitySmileQuote.cpp
+  ForwardQuote.cpp
+  Generating Code...
+  ConsoleApplication1.vcxproj -> C:\Users\abdek\source\repos\QuantEL\QuantEL\Debug\QuantELLauncher.exe

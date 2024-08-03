@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Market">
+      <UniqueIdentifier>{0c593626-ae65-4ede-bad6-0bf627cd0ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ids">
+      <UniqueIdentifier>{9e03cebf-d5d1-457e-a451-3fb4cc63324a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solvers">
+      <UniqueIdentifier>{0a3e5e30-599a-4a53-adec-0a6ee5ac666b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Alglib">
+      <UniqueIdentifier>{3b8abb62-4f5e-4c2d-a8ee-434f164b3e13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EquitySmileQuote.cpp">
+      <Filter>Market</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardQuote.cpp">
+      <Filter>Market</Filter>
+    </ClCompile>
+    <ClCompile Include="Market.cpp">
+      <Filter>Market</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketQuote.cpp">
+      <Filter>Market</Filter>
+    </ClCompile>
+    <ClCompile Include="EquityId.cpp">
+      <Filter>Ids</Filter>
+    </ClCompile>
+    <ClCompile Include="QuantElLauncher.cpp" />
+    <ClCompile Include="..\..\alglib-cpp\src\alglibinternal.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\alglibmisc.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\ap.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\dataanalysis.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\diffequations.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\fasttransforms.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\integration.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\interpolation.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\kernels_avx2.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\kernels_fma.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\kernels_sse2.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\linalg.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\optimization.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\solvers.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\specialfunctions.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib-cpp\src\statistics.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="EquitySmileData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MarketQuote.h">
+      <Filter>Market</Filter>
+    </ClInclude>
+    <ClInclude Include="EquitySmileQuote.h">
+      <Filter>Market</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardQuote.h">
+      <Filter>Market</Filter>
+    </ClInclude>
+    <ClInclude Include="Market.h">
+      <Filter>Market</Filter>
+    </ClInclude>
+    <ClInclude Include="EquityId.h">
+      <Filter>Ids</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\alglibinternal.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\alglibmisc.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\ap.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\dataanalysis.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\diffequations.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\fasttransforms.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\integration.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\interpolation.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\kernels_avx2.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\kernels_fma.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\kernels_sse2.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\linalg.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\optimization.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\solvers.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\specialfunctions.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\statistics.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib-cpp\src\stdafx.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="EquitySmileData.h" />
+  </ItemGroup>
+</Project>
