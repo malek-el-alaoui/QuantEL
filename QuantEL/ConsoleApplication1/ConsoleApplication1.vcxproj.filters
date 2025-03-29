@@ -13,6 +13,21 @@
     <Filter Include="Alglib">
       <UniqueIdentifier>{3b8abb62-4f5e-4c2d-a8ee-434f164b3e13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Calibration">
+      <UniqueIdentifier>{7bd74ec3-838c-4130-8103-e8330e5bb9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{8f2755cb-6d2d-429c-ac92-7553d93ca3fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{f3b04372-3f39-4c54-a950-5564e4b4f295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonteCarlo">
+      <UniqueIdentifier>{0ffa6163-9ed0-4f74-94ae-9c156d918c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Payoff">
+      <UniqueIdentifier>{4b77c0ee-c816-4be5-97b9-2629d65576c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EquitySmileQuote.cpp">
@@ -79,7 +94,33 @@
     <ClCompile Include="..\..\alglib-cpp\src\statistics.cpp">
       <Filter>Alglib</Filter>
     </ClCompile>
-    <ClCompile Include="EquitySmileData.cpp" />
+    <ClCompile Include="EquitySmileData.cpp">
+      <Filter>Market</Filter>
+    </ClCompile>
+    <ClCompile Include="RealFunction.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexFramework.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="VolSurfaceInterpolator.cpp">
+      <Filter>Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalVolatilityFunction.cpp">
+      <Filter>Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="CallSurfaceFunction.cpp">
+      <Filter>Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexMonteCarloPricer.cpp">
+      <Filter>MonteCarlo</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexCallPayoff.cpp">
+      <Filter>Payoff</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MarketQuote.h">
@@ -148,6 +189,32 @@
     <ClInclude Include="..\..\alglib-cpp\src\stdafx.h">
       <Filter>Alglib</Filter>
     </ClInclude>
-    <ClInclude Include="EquitySmileData.h" />
+    <ClInclude Include="EquitySmileData.h">
+      <Filter>Market</Filter>
+    </ClInclude>
+    <ClInclude Include="RealFunction.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_test.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexFramework.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="VolSurfaceInterpolator.h">
+      <Filter>Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalVolatilityFunction.h">
+      <Filter>Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="CallSurfaceFunction.h">
+      <Filter>Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexMonteCarloPricer.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexCallPayoff.h">
+      <Filter>Payoff</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
