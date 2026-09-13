@@ -1,0 +1,32 @@
+EQUITY RIGHT-WING VALIDATION
+============================
+Datasets in combined market output: AAPL, EUROSTOXX50, NVDA, SPX, TSLA
+EUR/USD excluded: YES
+
+Kernel constraints
+------------------
+components checked: 84
+lower-bound violations: 0
+upper-bound violations: 0
+max sigma/ATM ratio: 2.95544334686
+components at upper cap: 0
+
+Calibration / construction
+--------------------------
+max artificial objective weight: 1e-10
+max boundary-weight imbalance: 1.29007915461e-13
+max flat-vs-winged IV difference inside observed market: 0 bp
+
+Wing static-arbitrage checks
+----------------------------
+all direct-call checks pass: 1
+negative wing-density grid points: 0
+minimum wing density: 0
+minimum wing butterfly g: 0.00864474510917
+
+Focus rows
+----------
+SPX 2026-07-31: fit=11.082505bp, maxSigma/ATM=1.881219, alphaR=957.432, flatEndIV=24.6449%, controlledEndIV=10.3063%, maxControlledIV=17.7705%, overshoot=-0.2002bp, strictTargetFeasible=1
+AAPL 2026-09-11: fit=0.007564bp, maxSigma/ATM=1.731562, alphaR=427.653, flatEndIV=46.9133%, controlledEndIV=23.3030%, maxControlledIV=36.3336%, overshoot=433.3566bp, strictTargetFeasible=0
+NVDA 2026-09-14: fit=0.000034bp, maxSigma/ATM=0.703709, alphaR=2459.44, flatEndIV=28.2167%, controlledEndIV=0.0000%, maxControlledIV=28.0064%, overshoot=0.6395bp, strictTargetFeasible=1
+TSLA 2026-09-14: fit=4.392767bp, maxSigma/ATM=2.053220, alphaR=264.529, flatEndIV=41.6517%, controlledEndIV=15.8548%, maxControlledIV=33.6619%, overshoot=66.1062bp, strictTargetFeasible=0

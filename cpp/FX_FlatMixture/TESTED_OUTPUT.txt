@@ -1,0 +1,37 @@
+Two-model volatility-smile comparison
+Model 1: balanced-boundary arbitrage-free log-normal mixture
+Model 2: natural cubic spline of total implied variance vs log-moneyness
+==========================================================================
+
+eurostoxx50    2014-10-17   points=10  M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=-1.1507e-01  M2 butterfly=NEGATIVE  boundary=left mixW=1.7126e-02 calibW=1.0000e-10  rangeK=[8.5191e-01,1.0656e+00]
+eurostoxx50    2014-11-21   points=11  M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=3.2374e-01  M2 butterfly=OK  boundary=left mixW=5.2201e-02 calibW=1.0000e-10  rangeK=[8.1420e-01,1.1112e+00]
+eurostoxx50    2014-12-19   points=11  M1 maxIV=0.4364 bp  M2 maxIV=0.0000 bp  M2 minDensity=3.7332e-01  M2 butterfly=OK  boundary=left mixW=7.6665e-02 calibW=1.0000e-10  rangeK=[7.8545e-01,1.1536e+00]
+eurostoxx50    2015-03-20   points=11  M1 maxIV=1.0083 bp  M2 maxIV=0.0000 bp  M2 minDensity=8.3835e-03  M2 butterfly=OK  boundary=left mixW=1.1903e-01 calibW=1.0000e-10  rangeK=[7.1503e-01,1.2750e+00]
+eurostoxx50    2015-09-18   points=11  M1 maxIV=3.7657 bp  M2 maxIV=0.0000 bp  M2 minDensity=2.1444e-02  M2 butterfly=OK  boundary=left mixW=1.8558e-01 calibW=1.0000e-10  rangeK=[6.6231e-01,1.4475e+00]
+  calendar Model 1: FAIL | Model 2: PASS
+
+spx            2026-07-31   points=5   M1 maxIV=24.6468 bp  M2 maxIV=0.0000 bp  M2 minDensity=-4.4397e+01  M2 butterfly=NEGATIVE  boundary=left mixW=1.9247e-01 calibW=1.0000e-10  rangeK=[9.7988e-01,1.0192e+00]
+
+eurusd         1WK          points=5   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=5.7168e+00  M2 butterfly=OK  boundary=right mixW=7.5195e-02 calibW=1.0000e-10  rangeK=[9.8563e-01,1.0152e+00]
+eurusd         1MO          points=5   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=2.5662e+00  M2 butterfly=OK  boundary=left mixW=7.9067e-02 calibW=1.0000e-10  rangeK=[9.6536e-01,1.0348e+00]
+eurusd         2MO          points=5   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=1.8537e+00  M2 butterfly=OK  boundary=left mixW=7.5400e-02 calibW=1.0000e-10  rangeK=[9.5149e-01,1.0470e+00]
+eurusd         3MO          points=5   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=1.4135e+00  M2 butterfly=OK  boundary=left mixW=7.3237e-02 calibW=1.0000e-10  rangeK=[9.3830e-01,1.0586e+00]
+eurusd         6MO          points=5   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=8.8784e-01  M2 butterfly=OK  boundary=left mixW=7.1604e-02 calibW=1.0000e-10  rangeK=[9.0251e-01,1.0914e+00]
+eurusd         9MO          points=5   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=6.8260e-01  M2 butterfly=OK  boundary=left mixW=6.9099e-02 calibW=1.0000e-10  rangeK=[8.7658e-01,1.1141e+00]
+eurusd         1YR          points=5   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=5.3505e-01  M2 butterfly=OK  boundary=left mixW=6.7038e-02 calibW=1.0000e-10  rangeK=[8.5201e-01,1.1380e+00]
+eurusd         18MO         points=5   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=3.8974e-01  M2 butterfly=OK  boundary=left mixW=6.9933e-02 calibW=1.0000e-10  rangeK=[8.1874e-01,1.1803e+00]
+eurusd         2YR          points=5   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=3.0240e-01  M2 butterfly=OK  boundary=left mixW=7.0723e-02 calibW=1.0000e-10  rangeK=[7.9043e-01,1.2178e+00]
+  calendar Model 1: PASS | Model 2: PASS
+
+aapl           2026-09-11   points=5   M1 maxIV=0.0076 bp  M2 maxIV=0.0000 bp  M2 minDensity=2.6977e+00  M2 butterfly=OK  boundary=right mixW=1.3917e-01 calibW=1.0000e-10  rangeK=[9.6529e-01,1.0351e+00]
+
+nvda           2026-09-14   points=6   M1 maxIV=0.0000 bp  M2 maxIV=0.0000 bp  M2 minDensity=1.4587e+00  M2 butterfly=OK  boundary=left mixW=1.7235e-01 calibW=1.0000e-10  rangeK=[9.3800e-01,1.0625e+00]
+
+tsla           2026-09-14   points=6   M1 maxIV=0.4935 bp  M2 maxIV=0.0000 bp  M2 minDensity=1.3697e+00  M2 butterfly=OK  boundary=right mixW=1.3573e-01 calibW=1.0000e-10  rangeK=[9.4256e-01,1.0638e+00]
+
+CSV results written to ./output
+  - all_market_vs_models.csv
+  - all_model1_artificial_quote_diagnostics.csv
+  - all_continuous_smiles.csv
+  - all_densities.csv
+  - summary.csv

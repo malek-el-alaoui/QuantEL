@@ -1,0 +1,30 @@
+BALANCED BOUNDARY VALIDATION
+============================
+Slices tested: 18
+Input static-arbitrage failures: 0
+Max |boundary weight - adjacent market weight|: 4.203998e-13
+Artificial calibration objective weight: 1.000e-10
+10% ATM sigma-floor violations: 0
+Minimum Model-1 density on output grids: 0.0194037236463
+Negative Model-1 density grid points: 0
+
+PER-SLICE RESULTS
+-----------------
+eurostoxx50  2014-10-17   M1 maxIV=0.0000 bp  M2 minDensity=-0.11507  side=left wb=0.0171258 wNbr=0.0171258
+eurostoxx50  2014-11-21   M1 maxIV=0.0000 bp  M2 minDensity=0.323743  side=left wb=0.0522012 wNbr=0.0522012
+eurostoxx50  2014-12-19   M1 maxIV=0.4364 bp  M2 minDensity=0.373318  side=left wb=0.0766648 wNbr=0.0766648
+eurostoxx50  2015-03-20   M1 maxIV=1.0083 bp  M2 minDensity=0.00838348  side=left wb=0.119029 wNbr=0.119029
+eurostoxx50  2015-09-18   M1 maxIV=3.7657 bp  M2 minDensity=0.021444  side=left wb=0.185578 wNbr=0.185578
+spx          2026-07-31   M1 maxIV=24.6468 bp  M2 minDensity=-44.397  side=left wb=0.192466 wNbr=0.192466
+eurusd       1WK          M1 maxIV=0.0000 bp  M2 minDensity=5.71677  side=right wb=0.0751951 wNbr=0.0751951
+eurusd       1MO          M1 maxIV=0.0000 bp  M2 minDensity=2.56624  side=left wb=0.0790668 wNbr=0.0790668
+eurusd       2MO          M1 maxIV=0.0000 bp  M2 minDensity=1.85371  side=left wb=0.0753998 wNbr=0.0753998
+eurusd       3MO          M1 maxIV=0.0000 bp  M2 minDensity=1.41353  side=left wb=0.0732375 wNbr=0.0732375
+eurusd       6MO          M1 maxIV=0.0000 bp  M2 minDensity=0.887839  side=left wb=0.0716042 wNbr=0.0716042
+eurusd       9MO          M1 maxIV=0.0000 bp  M2 minDensity=0.682597  side=left wb=0.0690993 wNbr=0.0690993
+eurusd       1YR          M1 maxIV=0.0000 bp  M2 minDensity=0.535047  side=left wb=0.0670375 wNbr=0.0670375
+eurusd       18MO         M1 maxIV=0.0000 bp  M2 minDensity=0.389745  side=left wb=0.069933 wNbr=0.069933
+eurusd       2YR          M1 maxIV=0.0000 bp  M2 minDensity=0.302397  side=left wb=0.0707234 wNbr=0.0707234
+aapl         2026-09-11   M1 maxIV=0.0076 bp  M2 minDensity=2.69772  side=right wb=0.13917 wNbr=0.13917
+nvda         2026-09-14   M1 maxIV=0.0000 bp  M2 minDensity=1.4587  side=left wb=0.172353 wNbr=0.172353
+tsla         2026-09-14   M1 maxIV=0.4935 bp  M2 minDensity=1.36974  side=right wb=0.135729 wNbr=0.135729
