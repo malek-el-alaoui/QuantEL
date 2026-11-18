@@ -1,1 +1,0 @@
-Both C++17 targets compiled successfully with CMake under Linux. This confirms compilation only, not numerical or theoretical correctness.
